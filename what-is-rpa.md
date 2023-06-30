@@ -1,6 +1,11 @@
 # What is RPA? 
 RPA stands for Robotic Process Automation. It refers to the use of software robots or bots to automate repetitive, rule-based tasks and processes within an organization. These software robots mimic human interactions with digital systems to perform tasks such as data entry, form filling, data extraction, report generation, and more.
 
+## ELI5
+> ELI5: Explain Like I’m 5 years old
+> 
+> RPA is like having a helpful robot friend that can do repetitive computer tasks for you, making things faster and easier for everyone!
+
 ## Advantages of RPA
 1. **Increased Efficiency and Accuracy:** RPA can perform tasks much faster and with higher accuracy compared to humans. Bots can work 24/7 without getting tired or making mistakes, leading to increased productivity and reduced error rates.
     
@@ -22,19 +27,8 @@ RPA stands for Robotic Process Automation. It refers to the use of software robo
 4. **Security and Governance Considerations:** RPA introduces new security risks, as software robots interact with sensitive data and systems. Organizations need to implement appropriate security measures and establish governance frameworks to ensure data privacy, access control, and compliance.
     
 5. **Process Standardization Requirements:** RPA works best with standardized and well-defined processes. If the processes are highly variable or not well-documented, it can be challenging to automate them effectively with RPA.
-    
 
-## ELI5
-> ELI5: Explain Like I’m 5 years old
-> 
-> RPA is like having a helpful robot friend that can do repetitive computer tasks for you, making things faster and easier for everyone!
-
-Imagine you have a robot friend who can do things for you. Robotic Process Automation, or RPA, is like having a robot friend that can help with repetitive tasks that people do on computers.
-
-For example, think about filling out a form online. Instead of you doing it every time, the RPA robot can learn how to do it and do it for you! It can type and click on things just like you do.
-
-RPA robots are really good at doing tasks over and over again, and they can do them faster and without making mistakes. They don't get tired like humans do, so they can work all day and night if needed.
-
-By using RPA, companies can save time and money because they don't need as many people to do these repetitive tasks. The people can then focus on more important and interesting things that robots can't do, like using their imagination or making important decisions.
-
-But it's important to know that RPA robots are not good at thinking or making decisions like humans. They can only do the tasks they are programmed to do. So, if there are complicated tasks that require thinking or creativity, people will still need to do them.
+## References
+- [What is robotic process automation?](https://www.ibm.com/topics/rpa)
+- [Automation Anywhere: RPA](https://www.automationanywhere.com/rpa/robotic-process-automation)
+- [UI Path: RPA](https://www.uipath.com/rpa/robotic-process-automation)
