@@ -39,3 +39,5 @@ If you are looking for a cloud-based RPA platform with a complete development en
 - [Robot Framework docs](https://docs.robotframework.org/docs)
 - [Robocorp](https://robocorp.com/)
 - [Robocorp docs](https://robocorp.com/docs)
+
+## [Go to home](../README.md)

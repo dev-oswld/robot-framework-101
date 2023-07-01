@@ -32,3 +32,5 @@ RPA stands for Robotic Process Automation. It refers to the use of software robo
 - [What is robotic process automation?](https://www.ibm.com/topics/rpa)
 - [Automation Anywhere: RPA](https://www.automationanywhere.com/rpa/robotic-process-automation)
 - [UI Path: RPA](https://www.uipath.com/rpa/robotic-process-automation)
+
+## [Go to home](../README.md)

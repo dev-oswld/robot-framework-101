@@ -57,3 +57,5 @@ To install the Python programming language on macOS, you can follow these step-b
     - Type `python3 --version` and press Enter.
     - You should see the Python version number printed on the screen, indicating that Python is successfully installed.
     - Note the use of `python3` instead of `python` to ensure you're using Python 3.X.
+
+## [Go to home](../README.md)

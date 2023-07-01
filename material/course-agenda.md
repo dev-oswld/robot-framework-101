@@ -55,3 +55,5 @@
 - Developing test cases, creating custom keywords, and building test suites
 - Collaborative project work and troubleshooting
 - Practical exercises to reinforce understanding and skills
+
+## [Go to home](../README.md)
