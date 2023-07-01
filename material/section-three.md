@@ -146,4 +146,8 @@ sheet['B1'] = 'World'
 workbook.save('myfile.xlsx')
 ```
 
+## References
+- [Awesome list Robot Framework](https://github.com/fkromer/awesome-robotframework)
+- [Robot Framework cookbook](https://github.com/adrianyorke/robotframework-cookbook)
+
 ## [Go to home](../README.md)

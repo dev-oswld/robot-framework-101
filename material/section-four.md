@@ -198,4 +198,8 @@ Account Management Tests
     Update Account Information
 ```
 
+## References
+- [Awesome list Robot Framework](https://github.com/fkromer/awesome-robotframework)
+- [Robot Framework cookbook](https://github.com/adrianyorke/robotframework-cookbook)
+
 ## [Go to home](../README.md)
