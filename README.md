@@ -1,10 +1,10 @@
-# robot-framework-101
+# Robot Framework 101 🤖
 
-- Introduction
+- **Introduction**
     - [What is RPA](./material/what-is-rpa.md)
     - [Introduction to Robot Framework](./material/robot-framework-vs-robocorp.md)
     - [Installation](./material/how-to-install.md)
-- Agenda
+- **Agenda**
     - [Course](./material/course-agenda.md)
         - [Section 1](./material/section-one.md)
             - [Q&A](./material/section-one-qa.md)
