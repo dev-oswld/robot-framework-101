@@ -1,4 +1,7 @@
 # What is RPA? 
+
+![image](../material/images/robot-images-examples-(9).png)
+
 RPA stands for Robotic Process Automation. It refers to the use of software robots or bots to automate repetitive, rule-based tasks and processes within an organization. These software robots mimic human interactions with digital systems to perform tasks such as data entry, form filling, data extraction, report generation, and more.
 
 ## ELI5

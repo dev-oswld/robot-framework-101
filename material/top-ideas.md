@@ -1,6 +1,8 @@
 # Ideas
 The following ideas are potential projects for further practice in Robot Framework.
 
+![image](../material/images/robot-images-examples-(5).png)
+
 ## List
 1. **Data Entry Automation**: Develop a Robot Framework solution to automate repetitive data entry tasks, such as populating forms or entering data into spreadsheets.
 

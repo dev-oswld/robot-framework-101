@@ -1,5 +1,7 @@
 # Agenda: Robot Framework 101
 
+![logo](https://miro.medium.com/v2/resize:fit:553/1*wnMQPTmEsIq0TiRgfX4hig.png)
+
 ## Section 1: *Introduction to Python*
 - Introduction to Python programming language
 - Setting up Python environment

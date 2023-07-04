@@ -1,5 +1,5 @@
 # How to install Python in Windows 10/11?
-To install the Python programming language on a Windows operating system, you can follow these step-by-step instructions:
+![image](../material/images/robot-images-examples-(2).png)
 
 ## Steps
 1. **Download Python:**
@@ -24,7 +24,7 @@ To install the Python programming language on a Windows operating system, you ca
     - You should see the Python version number printed on the screen, indicating that Python is successfully installed.
 
 # How to install Python in MacOS?
-To install the Python programming language on macOS, you can follow these step-by-step instructions:
+![image](../material/images/robot-images-examples-(8).png)
 
 ## Steps
 1.  **Check Python Version:**
