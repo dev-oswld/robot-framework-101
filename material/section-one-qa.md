@@ -10,6 +10,7 @@
 *Easy-to-read syntax, Dynamic typing, Automatic memory management, Extensive standard library, sCross-platform compatibility*
 
 3.  **How do you define variables in Python?**
+
 *Variables in Python are defined by assigning a value to a name. For example, `x = 10` assigns the value 10 to the variable `x`.*
     
 4.  **What is the purpose of comments in Python?**
