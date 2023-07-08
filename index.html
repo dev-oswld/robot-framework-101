@@ -6,10 +6,11 @@
 
     <title></title>
     <link rel="stylesheet" href="dist/reveal.css" />
-    <link rel="stylesheet" href="dist/theme/mattropolis.css" id="theme" />
+    <link rel="stylesheet" href="dist/theme/night.css" id="theme" />
     <link rel="stylesheet" href="plugin/highlight/monokai.css" />
 	<link rel="stylesheet" href="css/layout.css" />
 	<link rel="stylesheet" href="plugin/customcontrols/style.css">
+	<link rel="stylesheet" href="plugin/chalkboard/style.css">
 
 	<link rel="stylesheet" href="plugin/reveal-pointer/pointer.css" />
 
@@ -102,6 +103,12 @@
 <img src="https://miro.medium.com/v2/resize:fit:553/1*wnMQPTmEsIq0TiRgfX4hig.png" alt="logo" style="object-fit: scale-down">
 
 
+## Quiz
+- **What is ...?**
+	- *There is a placeholder.*
+- **What is ...?**
+	- *There is a placeholder.*
+
 
 
 
@@ -150,16 +157,36 @@
 - Test suites and test execution
 - Reporting and logging in Robot Framework
 </div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
+<grid absolute="true" drag="100 100" drop="0 0">
 ## Section 5: *Advanced Robot Framework Concepts*
 - Resource files and test data management
 - Tags and metadata for test organization
 - Handling errors and exceptions
 - Test setup and teardown
 - External libraries and extending Robot Framework
-- Integrating Robot Framework with other tools (e.g., Jenkins, JIRA)
-</div></script></section></section></div>
+- Integrating Robot Framework with other tools (e.g., Jenkins, JIRA)</script></section><section data-markdown><script type="text/template"></grid></script></section></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Quiz example
+- **What is ...?**
+	- *There is a placeholder.*
+- **What is ...?**
+	- *There is a placeholder.*
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+#### Example code: 
+```robotframework
+*** Test Cases ***
+Verify Login
+    [Documentation  Test case to verify login functionality
+    |   `${username}   |   $`{password}  |
+    |   user1          |   pass1         |
+    |   user2          |   pass2         |
+``` 
+
+you can see a code example in the slides. ok?
+</div></script></section></div>
     </div>
 
     <script src="dist/reveal.js"></script>
@@ -174,6 +201,7 @@
 	<script src="plugin/chart/plugin.js"></script>
 	<script src="plugin/menu/menu.js"></script>
 	<script src="plugin/customcontrols/plugin.js"></script>
+	<script src="plugin/chalkboard/plugin.js"></script>
 	<script src="plugin/reveal-pointer/pointer.js"></script>
 
     <script>
@@ -232,6 +260,7 @@
 		  RevealCustomControls,
 		  RevealMenu,
 	      RevealPointer,
+		  RevealChalkboard, 
         ],
 
 
@@ -254,6 +283,14 @@
 
 		customcontrols: {
 			controls: [
+				{ icon: '<i class="fa fa-pen-square"></i>',
+				title: 'Toggle chalkboard (B)',
+				action: 'RevealChalkboard.toggleChalkboard();'
+				},
+				{ icon: '<i class="fa fa-pen"></i>',
+				title: 'Toggle notes canvas (C)',
+				action: 'RevealChalkboard.toggleNotesCanvas();'
+				},
 			]
 		},
 		menu: {
@@ -264,7 +301,7 @@
       // options from URL query string
       var queryOptions = Reveal().getQueryHash() || {};
 
-      var options = extend(defaultOptions, {"width":960,"height":700,"margin":0.04,"controls":true,"progress":true,"slideNumber":true,"transition":"slide","transitionSpeed":"normal"}, queryOptions);
+      var options = extend(defaultOptions, {"width":960,"height":700,"margin":0.04,"controls":true,"progress":true,"slideNumber":false,"transition":"slide","transitionSpeed":"normal"}, queryOptions);
     </script>
 
     <script>
