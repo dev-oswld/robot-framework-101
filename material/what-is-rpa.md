@@ -18,7 +18,7 @@ RPA stands for Robotic Process Automation. It refers to the use of software robo
     
 4. **Flexibility and Scalability:** RPA robots can be easily scaled up or down based on business needs. They can adapt to changing process requirements and handle increased workloads without significant disruptions.
     
-5. **Improved Compliance and Auditability:** RPA enables organizations to enforce standardized processes and business rules consistently. The actions performed by software robots are traceable, auditable, and can help maintain compliance with regulatory requirements.
+5. **Improved Compliance and Auditability:** RPA enables organizations to enforce standardized processes and business rules consistently. The actions performed by software robots are traceable, and auditable, and can help maintain compliance with regulatory requirements.
     
 ## Disadvantages of RPA
 1. **Limited Cognitive Abilities:** RPA is best suited for repetitive, rule-based tasks. It lacks the ability to handle complex decision-making, cognitive analysis, or tasks requiring human judgment. Some processes may still require human intervention.
@@ -30,6 +30,16 @@ RPA stands for Robotic Process Automation. It refers to the use of software robo
 4. **Security and Governance Considerations:** RPA introduces new security risks, as software robots interact with sensitive data and systems. Organizations need to implement appropriate security measures and establish governance frameworks to ensure data privacy, access control, and compliance.
     
 5. **Process Standardization Requirements:** RPA works best with standardized and well-defined processes. If the processes are highly variable or not well-documented, it can be challenging to automate them effectively with RPA.
+
+## Summary
+
+| Advantage | Disadvantage |
+|---|---|
+| Increased efficiency and accuracy | Limited cognitive abilities |
+| Cost savings | Dependency on stable systems |
+| Time savings | Initial investment and implementation |
+| Flexibility and scalability | Security and governance considerations |
+| Improved compliance and auditability | Process standardization requirements |
 
 ## References
 - [What is robotic process automation?](https://www.ibm.com/topics/rpa)
