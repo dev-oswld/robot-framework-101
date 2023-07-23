@@ -3,10 +3,10 @@
 ![image](https://theqalead.b-cdn.net/wp-content/uploads/sites/2/2022/10/the-future-of-robot-framework-and-selenium-feature-image-1280x720.png)
 
 - **Introduction**
-    - [What is RPA](./material/what-is-rpa.md)
-    - [Introduction to Robot Framework](./material/robot-framework-vs-robocorp.md)
     - [Installation (Python)](./material/how-to-install-python.md)
     - [Installation (VS Code)](./material/how-to-install-vscode.md)
+    - [What is RPA](./material/what-is-rpa.md)
+    - [Introduction to Robot Framework](./material/robot-framework-vs-robocorp.md)
 - **Agenda**
     - [Course](./material/course-agenda.md)
         - [Section 1](./material/section-one.md)
