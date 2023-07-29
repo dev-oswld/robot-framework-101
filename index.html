@@ -110,7 +110,7 @@
 </div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-## Section 1: Introduction to Python
+## [Section 1: Introduction to Python](#Section-01)
 - Introduction to Python programming language
 - Setting up Python environment
 - Variables, data types, and operators
@@ -120,7 +120,7 @@
 </div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-## Section 2: Object-Oriented Programming in Python
+## [Section 2: Object-Oriented Programming in Python](#Section-02)
 - Introduction to object-oriented programming (OOP) concepts
 - Classes, objects, and instances
 - Inheritance and polymorphism
@@ -129,7 +129,7 @@
 </div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-## Section 3: Python Libraries for Automation
+## [Section 3: Python Libraries for Automation](#Section-03)
 - Overview of essential Python libraries for automation
 - Working with web automation libraries (e.g., Selenium, BeautifulSoup)
 - Automating API interactions using requests library
@@ -139,7 +139,7 @@
 </div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-## Section 4: Introduction to Robot Framework
+## [Section 4: Introduction to Robot Framework](#Section-04)
 - Introduction to Robot Framework as an automation framework
 - Installing Robot Framework and its dependencies
 - Test case structure and syntax
@@ -150,7 +150,7 @@
 </div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-## Section 5: Advanced Robot Framework Concepts
+## [Section 5: Advanced Robot Framework Concepts](#Section-05)
 - Resource files and test data management
 - Tags and metadata for test organization
 - Handling errors and exceptions
@@ -298,11 +298,825 @@ If you are looking for a cloud-based RPA platform with a complete development en
     - [Robot Framework docs](https://docs.robotframework.org/docs)
 - [Robocorp](https://robocorp.com/)
     - [Robocorp docs](https://robocorp.com/docs)
-</div></script></section></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+</div></script></section></section><section ><section data-markdown><script type="text/template"><!-- .slide: class="drop" id="Section-01" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-### Coming soon 🤖
-</div></script></section></div>
+### Section 01: Introduction to Python
+Python is a high-level, general-purpose, interpreted, object-oriented programming language with dynamic semantics. Python is often described as a *“batteries included”* language due to its comprehensive standard library.
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Variables
+Variables are used to store data in Python. We can assign values to variables using the assignment operator (=).
+
+```python
+name = "John"
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Data Types
+Python supports various data types such as strings, numbers, booleans, lists, tuples, and dictionaries.
+
+```python
+message = "Hello, World!" #string
+age = 25 #number
+is_student = True #boolean
+fruits = ["apple", "banana", "orange"] #list
+coordinates = (10, 20) #tuple
+person = {"name": "John", "age": 30} #dictionary
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Operators
+Operators are used to perform operations on variables and values.
+- Arithmetic operators: *+, -, *, /, %*
+- Comparison operators: = =, !=, >, <, >=, <=
+- Logical operators: *and, or, not*
+- Assignment operators: =, +=, -=, *=, /=
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Control Flow: if statement
+Control flow allows us to control the flow of program execution based on conditions.
+
+```python
+    if age >= 18:
+        print("You are an adult")
+    else:
+        print("You are a minor")
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Control Flow: for loop
+```python
+    for fruit in fruits:
+        print(fruit)
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Control Flow: while loop
+```python
+    i = 0
+    while i < 5:
+        print(i)
+        i += 1
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Functions
+Functions are reusable blocks of code that perform specific tasks. We can define our own functions or use built-in functions.
+
+```python
+    def greet(name):
+        print("Hello, " + name)
+    greet("John")
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Modules
+Modules are files containing Python code that can be reused in different programs. We can import modules to access their functions and variables.
+
+```python
+    import math
+    print(math.sqrt(25))
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### References
+- [What is Python?](https://www.python.org/doc/essays/blurb/)
+- [Python Crash Course, 2nd Edition](https://www.oreilly.com/library/view/python-crash-course/9781492071266/)
+- [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
+</div></div></script></section></section><section ><section data-markdown><script type="text/template"><!-- .slide: class="drop" id="Section-02" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Section 2: Object-Oriented Programming in Python
+We will explore the core concepts of object-oriented programming (OOP) in Python; classes and objects, inheritance, encapsulation, polymorphism, and abstraction.
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Classes and Objects
+Classes are blueprints or templates that define the properties and behaviors of objects. Objects are instances of a class, representing real-world entities.
+```python
+class Car:
+    def __init__(self, brand, color):
+        self.brand = brand
+        self.color = color
+
+    def start_engine(self):
+        print("The car's engine is starting.")
+    
+my_car = Car("Toyota", "red")
+my_car.start_engine()
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Inheritance
+Inheritance allows a class to inherit properties and methods from another class, called the superclass or base class. It helps create a hierarchy of classes with shared attributes and behaviors.
+```python
+class Animal:
+    def __init__(self, name):
+        self.name = name
+
+    def speak(self):
+        print("The animal makes a sound.")
+
+class Dog(Animal):
+    def speak(self):
+        print("The dog barks.")
+    
+my_dog = Dog("Buddy")
+my_dog.speak()
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Encapsulation
+Encapsulation is the process of bundling data and methods together within a class, hiding the internal details from outside. It provides data protection and allows controlled access to the internal state of an object.
+```python
+class BankAccount:
+    def __init__(self, account_number, balance):
+        self.__account_number = account_number
+        self.__balance = balance
+
+    def get_balance(self):
+        return self.__balance
+
+my_account = BankAccount("123456789", 1000)
+print(my_account.get_balance())    
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Polymorphism
+Polymorphism allows objects of different classes to be treated as objects of a common superclass. It enables the use of a single interface to represent different forms or types.
+```python
+class Shape:
+    def area(self):
+        pass
+
+class Rectangle(Shape):
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+
+    def area(self):
+         return self.width * self.height
+    
+class Circle(Shape):
+    def __init__(self, radius):
+        self.radius = radius
+    
+    def area(self):
+        return 3.14 * self.radius ** 2
+    
+shapes = [Rectangle(4, 5), Circle(3)]
+for shape in shapes:
+    print(shape.area())    
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Abstraction
+Abstraction focuses on the essential features of an object, hiding the unnecessary details. It allows us to create abstract classes with abstract methods that provide a common interface for subclasses.
+```python
+from abc import ABC, abstractmethod
+    
+class Animal(ABC):
+    @abstractmethod
+    def speak(self):
+        pass
+    
+class Dog(Animal):
+    def speak(self):
+        print("The dog barks.")
+    
+my_dog = Dog()
+my_dog.speak()
+```
+</div></script></section><section data-markdown><script type="text/template">### References
+- [What is Python?](https://www.python.org/doc/essays/blurb/)
+- [Python Crash Course, 2nd Edition](https://www.oreilly.com/library/view/python-crash-course/9781492071266/)
+- [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
+</script></section></section><section ><section data-markdown><script type="text/template"><!-- .slide: class="drop" id="Section-03" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Section 3: Python Libraries for Automation
+We will explore various Python libraries that are commonly used for automation purposes.
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Web Automation Libraries
+Web automation libraries, such as Selenium and BeautifulSoup, allow us to automate interactions with web applications. Selenium enables automated browser testing and web scraping. BeautifulSoup provides a convenient way to parse and extract data from HTML or XML documents.
+```python
+from selenium import webdriver
+
+driver = webdriver.Chrome()
+driver.get("https://www.example-url.com")
+
+element = driver.find_element_by_id("username")
+element.send_keys("my_username")
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### API Automation with requests Library
+
+The requests library simplifies sending HTTP requests and interacting with APIs. It enables automation of API interactions, such as making GET, POST, PUT, DELETE requests and handling responses.
+```python
+import requests
+
+response = requests.get("https://api.example.com/users")
+
+if response.status_code == 200:
+    users = response.json()
+    for user in users:
+        print(user['name'])
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Data Manipulation and Analysis
+Pandas is a powerful library for data manipulation and analysis. It provides data structures (e.g., DataFrame) and functions for cleaning, transforming, and analyzing structured data.
+```python
+import pandas as pd
+
+data = {'Name': ['John', 'Alice', 'Bob'],
+        'Age': [25, 30, 35],
+        'Country': ['USA', 'Canada', 'UK']}
+        
+df = pd.DataFrame(data)
+print(df.head())
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Interacting with Databases using SQL Alchemy
+SQL Alchemy is a library that simplifies database interactions in Python. It provides an Object-Relational Mapping (ORM) layer for working with databases using Python classes and objects.
+```python
+from sqlalchemy import create_engine, Column, Integer, String
+from sqlalchemy.orm import sessionmaker
+from sqlalchemy.ext.declarative import declarative_base
+
+engine = create_engine('sqlite:///my_database.db')
+Base = declarative_base()
+
+class User(Base):
+    __tablename__ = 'users'
+    id = Column(Integer, primary_key=True)
+    name = Column(String)
+
+Session = sessionmaker(bind=engine)
+session = Session()
+
+user = User(name='John')
+session.add(user)
+session.commit()
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Unit Testing
+The unittest library provides a framework for writing and executing unit tests in Python. It allows us to define test cases, test fixtures, and assertions to verify the behavior of functions or classes.
+```python
+import unittest
+
+def add_numbers(a, b):
+    return a + b
+
+class TestMathFunctions(unittest.TestCase):
+    def test_add_numbers(self):
+        result = add_numbers(2, 3)
+        self.assertEqual(result, 5)
+        
+    if __name__ == '__main__':
+        unittest.main()
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Working with Files and Directories
+Python provides built-in libraries for file and directory operations, such as reading, writing, and manipulating files and directories.
+```python
+# Reading a file
+with open('myfile.txt', 'r') as file:
+	content = file.read()
+
+print(content)
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Logging with the logging Library
+The logging library enables logging messages to various outputs, such as the console or a file.
+```python
+import logging
+
+logging.basicConfig(level=logging.DEBUG, filename='app.log', filemode='w')
+logging.debug('This is a debug message')
+logging.info('This is an info message')
+logging.warning('This is a warning message')
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Working with Dates and Times using the datetime Library
+The datetime library allows working with dates, times, and intervals in Python.
+```python
+from datetime import datetime
+current_time = datetime.now()
+print(current_time)
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Regular Expressions
+The re library provides support for regular expressions in Python. Regular expressions are powerful patterns used to match and manipulate text.
+
+```python
+import re
+
+text = 'Hello, my email is john@example.com'
+pattern = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
+matches = re.findall(pattern, text)
+
+print(matches)
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Working with Excel
+The openpyxl library enables reading and writing Excel files in Python.
+```python
+from openpyxl import Workbook
+workbook = Workbook()
+sheet = workbook.active
+sheet['A1'] = 'Hello'
+sheet['B1'] = 'World'
+workbook.save('myfile.xlsx')
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### References
+- [Awesome list Robot Framework](https://github.com/fkromer/awesome-robotframework)
+- [Robot Framework cookbook](https://github.com/adrianyorke/robotframework-cookbook)
+</div></div></div></script></section></section><section ><section data-markdown><script type="text/template"><!-- .slide: class="drop" id="Section-04" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Section 4: Introduction to Robot Framework
+We will introduce the Robot Framework, a popular framework for test automation and robotic process automation.
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Test Cases and Test Suites
+Test cases are the individual units of testing that validate specific functionalities or scenarios. Test suites are collections of test cases organized together.
+```robotframework
+*** Test Cases ***
+Verify Login
+    [Documentation]  Test case to verify login functionality
+    [Tags]  Smoke
+    Open Browser  ${url}  chrome
+    Input Text  `${username_field}  $`{username}
+    Input Password  `${password_field}  $`{password}
+    Click Button  ${login_button}
+    Page Should Contain  Welcome, ${username}
+
+*** Test Suites ***
+Smoke Tests
+    Verify Login
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Keywords
+Keywords are reusable components that perform specific actions or verifications in a test case. They abstract the implementation details and enhance test case readability.
+```robotframework
+*** Keywords ***
+Login
+    [Arguments]  `${username}  $`{password}
+    Input Text  `${username_field}  $`{username}
+    Input Password  `${password_field}  $`{password}
+    Click Button  ${login_button}
+    
+Verify Welcome Message
+    [Arguments]  ${username}
+    Page Should Contain  Welcome, ${username}
+
+*** Test Cases ***
+Verify Login
+    [Documentation]  Test case to verify login functionality
+    [Tags]  Smoke
+    Open Browser  ${url}  chrome
+    Login  `${username}  $`{password}
+    Verify Welcome Message  ${username}
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Test Data and Variables
+Test data provides input values and expected outcomes for test cases. Variables allow storing and reusing values within the test suite.
+```robotframework
+*** Variables ***
+${url}              https://www.example.com
+${username_field}   id=username
+${password_field}   id=password
+${login_button}     xpath=//button[@id='login']
+
+*** Test Cases ***
+Verify Login
+    [Documentation]  Test case to verify login functionality
+    [Tags]  Smoke
+    Open Browser  ${url}  chrome
+    Input Text  `${username_field}  $`{username}
+    Input Password  `${password_field}  $`{password}
+    Click Button  ${login_button}
+    Page Should Contain  Welcome, ${username}
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Test Setup and Teardown
+Test setup and teardown are special sections that execute before and after test cases, respectively. They help prepare the system or environment for testing and perform necessary cleanup.
+```robotframework
+*** Test Cases ***
+Verify Login
+    [Documentation]  Test case to verify login functionality
+    [Tags]  Smoke
+    [Setup]  Open Browser  ${url}  chrome
+    [Teardown]  Close Browser
+    Input Text  `${username_field}  $`{username}
+    Input Password  `${password_field}  $`{password}
+    Click Button  ${login_button}
+    Page Should Contain  Welcome, ${username}
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Test Tags and Test Execution
+Test tags provide metadata to categorize and organize test cases. Test execution allows running specific test cases or test suites based on tags or patterns.
+```robotframework
+*** Test Cases ***
+Verify Login
+    [Documentation]  Test case to verify login functionality
+    [Tags]  Smoke  Login
+    Open Browser  ${url}  chrome
+    Input Text  `${username_field}  $`{username}
+    Input Password  `${password_field}  $`{password}
+    Click Button  ${login_button}
+    Page Should Contain  Welcome, ${username}
+
+*** Test Cases ***
+Verify Logout
+    [Documentation]  Test case to verify logout functionality
+    [Tags]  Smoke  Logout
+    Login  `${username}  $`{password}
+    Click Link  Logout
+    Page Should Contain  Login
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Test Documentation and Reporting
+Test documentation provides descriptive information about test cases, helping users understand their purpose and requirements. Reporting generates detailed test execution reports, including the test results, status, and any errors or failures encountered.
+```robotframework
+*** Test Cases ***
+Verify Login
+    [Documentation]  Test case to verify login functionality
+    [Tags]  Smoke
+    [Documentation]  This test case verifies that a user can successfully log in to the system.
+    [Setup]  Open Browser  ${url}  chrome
+    [Teardown]  Close Browser
+    Input Text  `${username_field}  $`{username}
+    Input Password  `${password_field}  $`{password}
+    Click Button  ${login_button}
+    Page Should Contain  Welcome, ${username}  
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Data-Driven Testing
+
+Data-driven testing allows executing the same test case with multiple sets of input data. It helps cover different scenarios and increase test coverage.
+```robotframework
+*** Test Cases ***
+Verify Login With Multiple Users
+    [Documentation]  Test case to verify login functionality with multiple users
+    [Tags]  Smoke
+    [Setup]  Open Browser  ${url}  chrome
+    [Teardown]  Close Browser
+    :FOR  ${user}  IN  @{users}
+    \  Input Text  `${username_field}  $`{user['username']}
+    \  Input Password  `${password_field}  $`{user['password']}
+    \  Click Button  ${login_button}
+    \  Page Should Contain  Welcome, ${user['username']}
+    
+*** Variables ***
+@{users}  Create List  `${user1}  $`{user2}  ${user3}
+${user1}  Create Dictionary  username=user1  password=password1
+${user2}  Create Dictionary  username=user2  password=password2
+${user3}  Create Dictionary  username=user3  password=password3
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Resource Files and Libraries
+Resource files allow defining reusable keywords, variables, and settings that can be imported and used in multiple test suites. Libraries provide additional functionality by importing and utilizing external libraries or modules.
+```robotframework
+*** Settings ***
+Resource  common_resources.robot
+Library  SeleniumLibrary
+Library  OperatingSystem
+
+*** Test Cases ***
+Verify Login
+    [Documentation]  Test case to verify login functionality
+    [Tags]  Smoke
+    [Setup]  Open Browser  ${url}  chrome
+    [Teardown]  Close Browser
+    Input Text  `${username_field}  $`{username}
+    Input Password  `${password_field}  $`{password}
+    Click Button  ${login_button}
+    Page Should Contain  Welcome, ${username}
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Handling Test Failures and Exceptions
+Robot Framework provides mechanisms to handle test failures and exceptions. It allows specifying expected failures, handling exceptions, and defining custom actions on failure.
+```robotframework
+*** Test Cases ***
+Verify Login
+    [Documentation]  Test case to verify login functionality
+    [Tags]  Smoke
+    [Setup]  Open Browser  ${url}  chrome
+    [Teardown]  Close Browser
+    Login  `${username}  $`{password}
+    Run Keyword And Expect Error  Page Should Contain  Invalid credentials
+    Capture Page Screenshot  login_failure.png  # Capture screenshot on failure
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Test Case Organization and Reusability
+Organizing test cases and making them reusable is crucial for effective test development and maintenance. Grouping test cases by functionality, using keywords and resource files, and leveraging variable-driven testing are key practices.
+```robotframework
+*** Test Cases ***
+Login Tests
+    Verify Login With Valid Credentials
+    Verify Login With Invalid Credentials
+
+Account Management Tests
+    Create New Account
+    Update Account Information
+```
+</div></script></section><section data-markdown><script type="text/template">### References
+- [Awesome list Robot Framework](https://github.com/fkromer/awesome-robotframework)
+- [Robot Framework cookbook](https://github.com/adrianyorke/robotframework-cookbook)
+</script></section></section><section ><section data-markdown><script type="text/template"><!-- .slide: class="drop" id="Section-05" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Section 5: Advanced Robot Framework Concepts
+We will delve into advanced concepts of the Robot Framework.
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Test Variables and Argument Files
+Test variables allow storing dynamic values that can be accessed and used within test cases. Argument files provide a mechanism for passing data to test cases from external files.
+```robotframework
+*** Variables ***
+${url}   https://www.example.com
+
+*** Test Cases ***
+Verify Login
+    [Documentation]  Test case to verify login functionality
+    Open Browser  ${url}  chrome
+
+Verify Registration
+    [Documentation]  Test case to verify registration functionality
+    Open Browser  ${url}  firefox
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Test Setup and Teardown at Suite Level
+Test setup and teardown can be defined at the suite level to apply to all test cases within the suite. It helps in preparing the system or environment before running any test case and performing necessary cleanup afterward.
+```robotframework
+*** Settings ***
+Suite Setup    Open Browser    ${url}    chrome
+Suite Teardown    Close All Browsers
+
+*** Test Cases ***
+Verify Login
+    [Documentation]  Test case to verify login functionality
+    Input Text  `${username_field}  $`{username}
+    Input Password  `${password_field}  $`{password}
+    Click Button  ${login_button}
+    Page Should Contain  Welcome, ${username}
+
+Verify Logout
+    [Documentation]  Test case to verify logout functionality
+    Click Button  ${logout_button}
+    Page Should Contain  Login
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Tags and Tag-based Execution
+Tags allow categorizing test cases and selectively executing them based on specific tags. It helps in organizing and running tests targeted at specific areas or functionalities.
+```robotframework
+*** Test Cases ***
+Verify Login
+    [Documentation]  Test case to verify login functionality
+    [Tags]  Smoke  Login
+    Open Browser  ${url}  chrome
+    Input Text  `${username_field}  $`{username}
+    Input Password  `${password_field}  $`{password}
+    Click Button  ${login_button}
+    Page Should Contain  Welcome, ${username}
+
+Verify Logout
+    [Documentation]  Test case to verify logout functionality
+    [Tags]  Logout
+    Open Browser  ${url}  chrome
+    Click Link  Logout
+    Page Should Contain  Login
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Test Template and Template Keywords
+Test templates provide a way to create reusable test case patterns with placeholders for arguments. Template keywords allow defining generic keyword implementations that can be used within test cases.
+```robotframework
+*** Settings ***
+Test Template    Login Template
+
+*** Keywords ***
+Login Template
+    [Arguments]    `${username}    $`{password}
+    Input Text    `${username_field}    $`{username}
+    Input Password    `${password_field}    $`{password}
+    Click Button    ${login_button}
+    Page Should Contain    Welcome, ${username}
+
+*** Test Cases ***
+Verify Login
+    [Documentation]    Test case to verify login functionality
+    [Tags]    Smoke  Login
+    Login Template    `${username}    $`{password}
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Creating Custom Keywords and Libraries
+Robot Framework allows creating custom keywords and libraries to encapsulate reusable functionality. Custom keywords provide a way to extend the built-in keywords and create domain-specific keywords.
+```robotframework
+*** Keywords ***
+Custom Login Keyword
+    [Arguments]    `${username}    $`{password}
+    Input Text    `${username_field}    $`{username}
+    Input Password    `${password_field}    $`{password}
+    Click Button    ${login_button}
+
+*** Test Cases ***
+Verify Login
+    [Documentation]    Test case to verify login functionality
+    [Tags]    Smoke  Login
+    Custom Login Keyword    `${username}    $`{password}
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Handling Test Data with Data Tables
+Data tables allow organizing and managing test data in a tabular format within test cases. It helps in providing structured input data and expected output data for test cases.
+```robotframework
+*** Test Cases ***
+Verify Login
+    [Documentation]  Test case to verify login functionality
+    |   `${username}  |   $`{password}   |
+    |   user1        |   pass1         |
+    |   user2        |   pass2         |
+    |   user3        |   pass3         |
+    |   user4        |   pass4         |
+    |   user5        |   pass5         |
+    |   user6        |   pass6         |
+    |   user7        |   pass7         |
+    |   user8        |   pass8         |
+    |   user9        |   pass9         |
+    |   user10       |   pass10        |
+    
+    Open Browser  ${url}  chrome
+    :FOR  ${row}  IN RANGE  1  11
+    \  `${username}=  Get Table Cell  Verify Login  $`{row}  1
+    \  `${password}=  Get Table Cell  Verify Login  $`{row}  2
+    \  Input Text  `${username_field}  $`{username}
+    \  Input Password  `${password_field}  $`{password}
+    \  Click Button  ${login_button}
+    \  Page Should Contain  Welcome, ${username}
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Working with Test Suites and Suite Setup/Teardown
+Test suites allow organizing and managing multiple test cases together. Suite setup and teardown are special test cases that are executed before and after the test cases in a suite, respectively.
+```robotframework
+*** Settings ***
+Suite Setup  Open Browser  ${url}  chrome
+Suite Teardown  Close Browser
+
+*** Test Cases ***
+Verify Login
+    [Documentation]  Test case to verify login functionality
+    Input Text  `${username_field}  $`{username}
+    Input Password  `${password_field}  $`{password}
+    Click Button  ${login_button}
+    Page Should Contain  Welcome, ${username}
+
+Verify Logout
+    [Documentation]  Test case to verify logout functionality
+    Click Link  Logout
+    Page Should Contain  Login
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Importing and Using External Libraries
+Robot Framework allows importing and using external libraries to extend its functionality. These libraries provide additional keywords and capabilities to perform specific tasks.
+```robotframework
+*** Settings ***
+Library  SeleniumLibrary
+Library  DatabaseLibrary
+Library  RESTLibrary
+
+*** Test Cases ***
+Verify Login
+    [Documentation]  Test case to verify login functionality
+    Open Browser  ${url}  chrome
+    Input Text  `${username_field}  $`{username}
+    Input Password  `${password_field}  $`{password}
+    Click Button  ${login_button}
+    Page Should Contain  Welcome, ${username} 
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Robot Framework Variables and Variable Files
+Robot Framework supports variables that can be used to store and access values throughout the test suite. Variable files provide a way to define and manage variables in external files.
+```robotframework
+*** Variables ***
+${url}   https://www.example.com
+${username}   user1
+${password}   pass1
+
+*** Test Cases ***
+Verify Login
+    [Documentation]  Test case to verify login functionality
+    Open Browser  ${url}  chrome
+    Input Text  `${username_field}  $`{username}
+    Input Password  `${password_field}  $`{password}
+    Click Button  ${login_button}
+    Page Should Contain  Welcome, ${username}
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Handling Test Execution Flow with Keywords
+Keywords provide a way to define reusable steps that can be executed within test cases. They help in structuring the test execution flow and improving test case readability.
+```robotframework
+*** Keywords ***
+Login
+    [Arguments]  `${username}  $`{password}
+    Input Text  `${username_field}  $`{username}
+    Input Password  `${password_field}  $`{password}
+    Click Button  ${login_button}
+
+*** Test Cases ***
+Verify Login
+    [Documentation]  Test case to verify login functionality
+    Open Browser  ${url}  chrome
+    Login  `${username}  $`{password}
+    Page Should Contain  Welcome, ${username}
+```
+</div></script></section><section data-markdown><script type="text/template">### References
+- [Awesome list Robot Framework](https://github.com/fkromer/awesome-robotframework)
+- [Robot Framework cookbook](https://github.com/adrianyorke/robotframework-cookbook)
+</script></section></section></div>
     </div>
 
     <script src="dist/reveal.js"></script>
