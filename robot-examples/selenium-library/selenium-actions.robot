@@ -1,6 +1,10 @@
+*** Comments ***
 # Reference https://docs.robotframework.org/docs/different_libraries/selenium
+
+
 *** Settings ***
-Library    SeleniumLibrary
+Library     SeleniumLibrary
+
 
 *** Variables ***
 ${NAME}         Robot Framework
@@ -10,23 +14,25 @@ ${ROBOT}        ${NAME} ${VERSION}
 
 *** Test Cases ***
 Login with correct Username and Password
-   [Documentation]    First row of the documentation
+    [Documentation]    First row of the documentation
     ...
-    ...                Documentation continues here. These rows form
-    ...                a paragraph when shown in HTML outputs.    
+    ...    Documentation continues here. These rows form
+    ...    a paragraph when shown in HTML outputs.
     [Tags]    login-app
-
-    #Debug mode - only use in your computer
-    Set Selenium Speed    1
     # Where are the variables?
-    Open Browser    url=https://the-internet.herokuapp.com/login    browser=chrome
-    Input Text    username    my
+    # browser=chrome
+    [Setup]    Open Browser    url=https://the-internet.herokuapp.com/login    browser=edge
+
+    # Debug mode - only use in your computer
+    Set Selenium Speed    1
+    # Input Text    username    valor-10
+    Input Text    username    tomsmith
     Input Text    password    SuperSecretPassword!
-    Click Button     class:radius
+    Click Button    class:radius
     Element Should Contain    id=flash    You logged into a secure area!
     Click Link    Logout
     Capture Page Screenshot    tc-01-custom-file.png
-    Close Browser
+    [Teardown]    Close Browser
 
 Add Tasks And Set To Complete
     [Documentation]
@@ -35,11 +41,11 @@ Add Tasks And Set To Complete
     ...    - *bold*
     ...    - _italics_
     ...    - link: http://robotframework.org
-    ...    
+    ...
     [Tags]    mvc-app
 
     Set Selenium Speed    1
-    Open Browser    url=https://todomvc.com/examples/angularjs/#/    browser=chrome
+    Open Browser    url=https://todomvc.com/examples/angularjs/#/    browser=edge
     Input Text    class:new-todo    Complete Robot Framework Training
     Press Keys    class:new-todo    RETURN
     Input Text    class:new-todo    Write Automated Tests
