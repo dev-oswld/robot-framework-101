@@ -181,5 +181,6 @@ selenium-screenshot-*.png
 
 # End of https://www.toptal.com/developers/gitignore/api/python,robotframework
 
-# local folders
+# local folders and test evidence
 raw-material-local
+*.png
